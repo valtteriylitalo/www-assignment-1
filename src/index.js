@@ -44,9 +44,7 @@ function intialize() {
           }
         }
         if (checkWinConditions(rows) !== 0) {
-          alert(
-            "Winner is player " + checkWinConditions(rows) + "!\nResetting game"
-          );
+          alert("Player " + checkWinConditions(rows) + " won!");
           resetTable(cells);
         }
       }
